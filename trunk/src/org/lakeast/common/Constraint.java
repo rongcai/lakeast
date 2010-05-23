@@ -1,7 +1,7 @@
 package org.lakeast.common;
 
 /**
- * �����ṩ�йر���Լ��Χ����Ϣ�Լ�������
+ *
  */
 public class Constraint {
 
