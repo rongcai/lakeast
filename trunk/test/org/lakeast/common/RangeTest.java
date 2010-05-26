@@ -5,7 +5,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 /**
- * @author WANG Zhen
+ * @author Eric Wang
  * @date 2007-5-23
  */
 public class RangeTest {
