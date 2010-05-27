@@ -7,7 +7,7 @@ import org.lakeast.common.Randoms;
 import org.lakeast.ga.skeleton.BinaryChromosome;
 import org.lakeast.ga.skeleton.ConstantFactorGenerator;
 import org.lakeast.ga.skeleton.Population;
-import org.lakeast.pso.skeleton.ExponentFactorGenerator;
+import org.lakeast.pso.gen.ExponentFactorGenerator;
 import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.skeleton.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.RingTopoSwarm;
