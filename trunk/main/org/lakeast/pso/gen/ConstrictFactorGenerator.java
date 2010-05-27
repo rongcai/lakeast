@@ -21,6 +21,12 @@ import org.lakeast.pso.skeleton.AbstractSwarm;
 import org.lakeast.pso.skeleton.DynamicFatorGenerator;
 import org.lakeast.pso.skeleton.Factor;
 
+/**
+ * DCF-PSO的实现类，可以根据迭代次数同步更新w,c1,c2。
+ *
+ * @author Eric Wang
+ * @date 2007-5-26
+ */
 public class ConstrictFactorGenerator extends DynamicFatorGenerator {
 	private double exponent;
 
