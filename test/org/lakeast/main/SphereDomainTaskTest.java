@@ -12,7 +12,7 @@ import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.skeleton.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.RingTopoSwarm;
 
-public class SphereDomainTest implements Task {
+public class SphereDomainTaskTest implements Task {
 
 	@Test
 	public void testIt() throws InitializeException{
