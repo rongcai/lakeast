@@ -3,7 +3,7 @@ package org.lakeast.main;
 import org.junit.Test;
 import org.lakeast.common.Constraint;
 import org.lakeast.common.InitializeException;
-import org.lakeast.pso.domain.ShafferF6Domain;
+import org.lakeast.pso.domain.BananaDomain;
 import org.lakeast.pso.skeleton.ConstrictFactorGenerator;
 import org.lakeast.pso.skeleton.Domain;
 import org.lakeast.pso.skeleton.ExponentFactorGenerator;
@@ -12,7 +12,7 @@ import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.skeleton.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.RingTopoSwarm;
 
-public class ShafferF6DomainTest implements Task{
+public class BananaDomainTaskTest implements Task{
 
 	@Test
 	public void testIt() throws InitializeException{
@@ -46,7 +46,7 @@ public class ShafferF6DomainTest implements Task{
 
 		Testable[] targets = new Testable[Y];
 
-		Domain domain = new ShafferF6Domain();
+		Domain domain = new BananaDomain(5);
 
 		targets[0] = new RingTopoSwarm(NeighborhoodBestParticle.class, popSize,
 				domain, neighborhoodSize, generator1);
