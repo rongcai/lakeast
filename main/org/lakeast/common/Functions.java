@@ -19,8 +19,6 @@ package org.lakeast.common;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.lakeast.model.ca.QuotedPriceMatrix;
-
 public final class Functions {
 	private Functions() {
 	}
@@ -258,15 +256,6 @@ public final class Functions {
 		double result = 0.0;
 		for (int i = 0; i < vector.length; i++) {
 			result += (vector[i] == 1.0 ? prices[i] : 0.0);
-		}
-		return result;
-	}
-
-	public static double CA(double vector[], QuotedPriceMatrix matrix) {
-		double result = 0.0;
-		for (int i = 0; i < vector.length; i++) {
-			result += (vector[i] == 1.0 ? matrix.getBid(i).getQuotedPrice()
-					: 0.0);
 		}
 		return result;
 	}
