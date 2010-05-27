@@ -132,7 +132,7 @@ public class AdapativeFactorGenerator extends DynamicFactorGenerator {
 		lastPm += deltaPm;
 		lastPc = Range.constrict(lastPc, 0.6, 0.95);
 		lastPm = Range.constrict(lastPm, 0.005, 0.05);
-		if (false && p.getGeneration() % 10 == 0) {
+		if (p.getGeneration() % 10 == 0) {
 			System.out.printf("%f,%f\n", lastPc, lastPm);
 			System.out.flush();
 		}
