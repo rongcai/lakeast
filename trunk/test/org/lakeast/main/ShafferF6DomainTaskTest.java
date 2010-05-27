@@ -12,10 +12,18 @@ import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.skeleton.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.RingTopoSwarm;
 
-public class ShafferF6DomainTaskTest implements Task{
+public class ShafferF6DomainTaskTest implements Task {
+	public static void main(String[] args) {
+		try {
+			new ShafferF6DomainTaskTest().go(null);
+		} catch (InitializeException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 
 	@Test
-	public void testIt() throws InitializeException{
+	public void testIt() throws InitializeException {
 		go(null);
 	}
 
