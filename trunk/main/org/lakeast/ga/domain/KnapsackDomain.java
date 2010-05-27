@@ -27,11 +27,6 @@ import org.lakeast.ga.skeleton.Population.RepairCallback;
 import org.lakeast.model.knapsack.RandomizedPriceComparator;
 import org.lakeast.model.knapsack.RandomizedUnitPriceComparator;
 
-/**
- * @author Eric Wang
- *
- *         May 21, 2007
- */
 public class KnapsackDomain extends AbstractDomain {
 	private final double[] prices;
 	private final double[] weights;

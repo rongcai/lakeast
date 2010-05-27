@@ -28,10 +28,6 @@ import org.lakeast.model.ca.QuotedPriceMatrix;
 import org.lakeast.model.ca.RandomizedAveragePriceComparator;
 import org.lakeast.model.ca.RandomizedPriceComparator;
 
-/**
- * @author Eric Wang
- *
- */
 public class CAXORDomain extends AbstractDomain {
 	private QuotedPriceMatrix matrix;
 	private final boolean needSort;

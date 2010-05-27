@@ -21,11 +21,6 @@ import org.lakeast.common.Functions;
 import org.lakeast.ga.skeleton.AbstractDomain;
 import org.lakeast.ga.skeleton.ConstraintSet;
 
-/**
- * @author Eric Wang
- *
- *         May 21, 2007
- */
 public class GriewankDomain extends AbstractDomain {
 	public GriewankDomain() {
 		Constraint dc = new Constraint(-1, 1);
