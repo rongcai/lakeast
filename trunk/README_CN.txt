@@ -44,7 +44,7 @@ org.lakeast.pso.skeleton中：
         StaticTopoSwarm静态拓扑结构的PSO算法的抽象父类。
 
 以ShafferF6函数说明求解过程：
-1)        入口函数位于org.lakeast.main.ShafferF6DomainTest中，go函数执行。
+1)        入口函数位于org.lakeast.main.ShafferF6DomainTaskTest中，go函数执行。
 2)        在go函数中，首先指定迭代次数(numberOfIterations)，测试多少轮(testCount,多次运行以得到平均达优值)，种群大小(popSize)，邻域大小(neighborhoodSize)，迭代结束条件(exitCondition,由于制定了迭代次数，所以设定为[0,0]，也就是只有达到指定迭代次数才退出)。
 3)        以testCount, numberOfIterations以及迭代结束条件exitCondition为参数构建TestBatch类的实例batch。这个类用来进行管理参与测试的各种具体算法，且把数据结果按指定的格式输出为Excel文件。
 4)        指定PSO中的因子产生方法，包括ExponentFactorGenerator和ConstrictFactorGenerator。
