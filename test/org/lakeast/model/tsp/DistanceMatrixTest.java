@@ -27,15 +27,6 @@ public class DistanceMatrixTest {
 
 	}
 
-	private void print(double[][] arr) {
-		for (double[] t : arr) {
-			for (double x : t) {
-				System.out.print((int) x + "\t");
-			}
-			System.out.println();
-		}
-	}
-
 	int fact(int n) {
 		if (n <= 1)
 			return 1;
@@ -43,7 +34,8 @@ public class DistanceMatrixTest {
 	}
 
 	private double min = Double.POSITIVE_INFINITY;
-	private int[] best;
+
+	// private int[] best;
 
 	void perm(int[] list, int k, int m, double[][] arr) {
 		int i;
@@ -52,7 +44,7 @@ public class DistanceMatrixTest {
 			double t = Functions.TSP(list, arr);
 			if (t < min) {
 				min = t;
-				best = list.clone();
+				// best = list.clone();
 			}
 		} else
 			// list[k:m]有多个排列方式
