@@ -1,5 +1,6 @@
 package org.lakeast.main;
 
+import org.junit.Test;
 import org.lakeast.common.Constraint;
 import org.lakeast.common.InitializeException;
 import org.lakeast.ga.chromosome.SequenceIntegerChromosome;
@@ -11,7 +12,13 @@ import org.lakeast.pso.particle.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.swarm.RingTopoSwarm;
 
-public class TSPValueTaskTest extends TaskTest {
+public class TSPValueTaskTest implements Task {
+
+	@Test
+	public void testIt() throws InitializeException{
+		go(null);
+	}
+
 	public void go(String[] args) throws InitializeException {
 		int numberOfIterations = 2000;
 		int testCount = 10;

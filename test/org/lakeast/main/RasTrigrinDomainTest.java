@@ -12,18 +12,14 @@ import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.skeleton.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.RingTopoSwarm;
 
-public class RasTrigrinDomainTest {
-	public static void main(String[] args) {
-		try {
-			new RasTrigrinDomainTest().testIt();
-		} catch (InitializeException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+public class RasTrigrinDomainTest implements Task{
 
 	@Test
-	public void testIt() throws InitializeException {
+	public void testIt() throws InitializeException{
+		go(null);
+	}
+
+	public void go(String[] args) throws InitializeException {
 		int numberOfIterations = 3000;
 		int testCount = 20;
 

@@ -12,18 +12,14 @@ import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.skeleton.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.RingTopoSwarm;
 
-public class GriewankDomainTest {
-	public static void main(String[] args) {
-		try {
-			new GriewankDomainTest().testIt();
-		} catch (InitializeException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+public class GriewankDomainTest implements Task{
 
 	@Test
-	public void testIt() throws InitializeException {
+	public void testIt() throws InitializeException{
+		go(null);
+	}
+
+	public void go(String[] args) throws InitializeException {
 		int numberOfIterations = 3000;
 		int testCount = 20;
 

@@ -1,5 +1,6 @@
 package org.lakeast.main;
 
+import org.junit.Test;
 import org.lakeast.common.Constraint;
 import org.lakeast.common.InitializeException;
 import org.lakeast.common.Randoms;
@@ -11,14 +12,11 @@ import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.skeleton.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.RingTopoSwarm;
 
-public class KnapsackValueTaskTest {
-	public static void main(String[] args) {
-		try {
-			new KnapsackValueTaskTest().go(args);
-		} catch (InitializeException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+public class KnapsackValueTaskTest implements Task{
+
+	@Test
+	public void testIt() throws InitializeException{
+		go(null);
 	}
 
 	public void go(String[] args) throws InitializeException {

@@ -13,19 +13,11 @@ import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.skeleton.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.RingTopoSwarm;
 
-public class CAL4ValueTaskTest {
-	public static void main(String[] args) {
-		try {
-			new CAL4ValueTaskTest().go(args);
-		} catch (InitializeException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+public class CAL4ValueTaskTest implements Task{
 
 	@Test
-	public void testIt() {
-		main(null);
+	public void testIt() throws InitializeException{
+		go(null);
 	}
 
 	public void go(String[] args) throws InitializeException {
