@@ -14,19 +14,11 @@ import org.lakeast.pso.skeleton.IFactorGenerator;
 import org.lakeast.pso.skeleton.NeighborhoodBestParticle;
 import org.lakeast.pso.skeleton.RingTopoSwarm;
 
-public class CAXORValueTaskTest {
-	public static void main(String[] args) {
-		try {
-			new CAXORValueTaskTest().go(args);
-		} catch (InitializeException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+public class CAXORValueTaskTest implements Task{
 
 	@Test
-	public void testIt() {
-		main(null);
+	public void testIt() throws InitializeException{
+		go(null);
 	}
 
 	public void go(String[] args) throws InitializeException {
