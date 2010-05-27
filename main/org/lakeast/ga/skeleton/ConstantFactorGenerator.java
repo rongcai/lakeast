@@ -16,10 +16,6 @@
 
 package org.lakeast.ga.skeleton;
 
-/**
- * @author Eric Wang
- *
- */
 public class ConstantFactorGenerator extends AbstractFactorGenerator {
 
 	public ConstantFactorGenerator(Factor initFactor) {

@@ -22,10 +22,6 @@ import org.lakeast.ga.skeleton.AbstractDomain;
 import org.lakeast.ga.skeleton.ConstraintSet;
 import org.lakeast.model.tsp.DistanceMatrix;
 
-/**
- * @author Eric Wang
- *
- */
 public class TSPDomain extends AbstractDomain {
 	private final DistanceMatrix matrix;
 

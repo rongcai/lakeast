@@ -4,10 +4,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-/**
- * @author Eric Wang
- * @date 2007-5-23
- */
 public class RangeTest {
 
 	/**
