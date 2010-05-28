@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.lakeast.common.Constraint;
 import org.lakeast.common.InitializeException;
 import org.lakeast.common.Randoms;
-import org.lakeast.ga.skeleton.BinaryChromosome;
+import org.lakeast.ga.chromosome.BinaryChromosome;
 import org.lakeast.ga.skeleton.ConstantFactorGenerator;
 import org.lakeast.ga.skeleton.Population;
 import org.lakeast.pso.gen.ExponentFactorGenerator;
