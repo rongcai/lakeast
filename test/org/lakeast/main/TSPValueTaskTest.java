@@ -26,7 +26,7 @@ public class TSPValueTaskTest implements Task {
 		int popSize = 53;// 素数较好
 		int neighborhoodSize = 6;
 
-		Constraint exitCondition = new Constraint(0, 0);
+		Constraint exitCondition = new Constraint(0, 0);//表示采用平均最优值。
 
 		TestBatch batch = new TestBatch(testCount, numberOfIterations,
 				exitCondition);
