@@ -1,0 +1,1 @@
+You can create your improved evolutionary computing algorithm and compare it with other existing versions easily based on this framework, now the framework supports particle swarm optimization algorithm and genetic algorithm. Any questions to starffly@foxmail.com please.
